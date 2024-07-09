@@ -1,0 +1,39 @@
+$logo_height: 82px;
+
+.header__top {
+  align-items: center;
+  display: flex;
+  padding: 15px 0;
+}
+
+.header__logo {
+  position: relative;
+
+  &::after {
+    background-color: #cac8c5;
+    content: "";
+    height: 50px;
+    top: ($logo_height - 50) / 2;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+.header__title-block {
+  padding-left: 25px;
+}
+
+.header__title {
+  color: #f2ac04;
+  font-family: "Novecentowide-Book";
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.header__subtitle {
+  color: #929292;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+}
+
+.header__links {}
