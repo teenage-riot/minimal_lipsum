@@ -1,0 +1,42 @@
+.featured {  
+  &__header {
+    color: #555656;
+    font-family: "Tahoma";
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  &__slider {
+    // display: flex;
+  }
+
+  &__left-block {
+    border: 1px solid #d4d4d4;
+    outline: 1px solid #b0b0b0;
+    outline-offset: 1px;
+    margin: 2px;
+    max-width: 448px;
+  }
+
+  &__arrow-block {
+    align-items: center;
+    color: #565656;
+    display: flex;
+    font-family: "Tahoma";
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 15px 24px;
+  }
+
+  &__left-arrow, &__right-arrow {
+    transition: all .3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}
