@@ -1,21 +1,24 @@
-.featured {  
+.featured {
+  margin-top: 39px;
+
   &__header {
     color: #555656;
     font-family: "Tahoma";
     text-transform: uppercase;
     font-size: 12px;
+    margin-bottom: 12px;
   }
 
   &__slider {
-    // display: flex;
+    display: flex;
   }
 
   &__left-block {
     border: 1px solid #d4d4d4;
     outline: 1px solid #b0b0b0;
     outline-offset: 1px;
-    margin: 2px;
-    max-width: 448px;
+    margin: 2px 28px 2px 2px;
+    width: 50%;
   }
 
   &__arrow-block {
@@ -28,7 +31,8 @@
     padding: 15px 24px;
   }
 
-  &__left-arrow, &__right-arrow {
+  &__left-arrow,
+  &__right-arrow {
     transition: all .3s;
 
     &:hover {
@@ -38,5 +42,55 @@
     &:active {
       transform: scale(0.95);
     }
+  }
+  
+  &__right-block {
+    position: relative;
+  }
+
+  &__image-container {
+    position: relative;
+    margin-bottom: 15px;
+
+    & img {
+      display: block;
+    }
+
+    &::after {
+      background-color: #000;
+      bottom: -6px;
+      color: #3c3c3c;
+      content: "";
+      height: 1px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  &__title-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+  }
+
+  &__subtitle {
+    font-family: "Novecentowide-Book";
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-family: "Tahoma";
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-family: "Helvetica Narrow CE Regular";
+    font-size: 14px;
+    line-height: 23px;
   }
 }
