@@ -107,6 +107,22 @@ a {
   font-size: 14px;
 }
 
+.header__links {
+  border-block: 1px solid #ababab;
+  color: #6b6b6b;
+  display: flex;
+  font-family: "Swis721 Th BT Thin";
+  font-size: 18px;
+  padding: 14px 0;
+  text-transform: uppercase;
+}
+.header__links-item {
+  margin-right: 78px;
+}
+.header__links-item:last-child {
+  margin-right: 0;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
