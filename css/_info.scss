@@ -1,3 +1,5 @@
+$headers-balance-margin: 3px;
+
 .info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -7,21 +9,9 @@
     color: #565656;
     font-family: "HelveticaNeueLTPro-MdCn";
     font-size: 18px;
-    margin-bottom: 38px;
+    margin: $headers-balance-margin 0 38px 0;
     text-transform: uppercase;
   }
-
-  // &__news-list {
-  //   flex: 1;
-  // }
-
-  // &__who-we-are {
-  //   flex: 1;
-  // }
-
-  // &__contact-us {
-  //   flex: 1;
-  // }
 
   &__news-list-item {
     border-bottom: 1px dashed #969696;
@@ -78,23 +68,25 @@
   &__who-we-are-text {
     color: #3c3c3c;
     font-family: "Helvetica CE";
+    line-height: 23px;
     margin-bottom: 20px;
   }
 
   // -------------------------------------
 
   &__contact-us {
-    margin-left: 50px;
+    margin-left: 55px;
 
     .info__header {
       font-size: 22px;
+      margin-top: 0;
       text-transform: capitalize;
     }
   }
 
   &__contact-us-grid {
     display: grid;
-    gap: 20px;
+    gap: 25px 20px;
     grid-template-columns: 25px 1fr;
   }
 
@@ -105,13 +97,40 @@
     font-family: "Myriad Pro";
     font-size: 16px;
     justify-content: center;
+    letter-spacing: 1.75px;
+    min-height: 25px;
+    position: relative;
 
     &--bold {
       font-family: "Swiss721BT-BlackCondensed";
+      letter-spacing: 0;
+    }
+
+    &:nth-child(7) {
+      align-items: start;
+    }
+
+    &:nth-child(8) {
+      line-height: 20px;
+      margin-top: 10px;
     }
 
     &:nth-child(even) {
       justify-content: start;
+
+      &::after {
+        border-bottom: 1px dashed #3c3c3c;
+        content: "";
+        height: 1px;
+        position: absolute;
+        right: 28px;
+        top: 38px;
+        width: 220px;
+      }
+    }
+
+    &:last-child::after {
+      display: none;
     }
   }
 

@@ -336,7 +336,7 @@ a {
   color: #565656;
   font-family: "HelveticaNeueLTPro-MdCn";
   font-size: 18px;
-  margin-bottom: 38px;
+  margin: 3px 0 38px 0;
   text-transform: uppercase;
 }
 .info__news-list-item {
@@ -384,18 +384,20 @@ a {
 .info__who-we-are-text {
   color: #3c3c3c;
   font-family: "Helvetica CE";
+  line-height: 23px;
   margin-bottom: 20px;
 }
 .info__contact-us {
-  margin-left: 50px;
+  margin-left: 55px;
 }
 .info__contact-us .info__header {
   font-size: 22px;
+  margin-top: 0;
   text-transform: capitalize;
 }
 .info__contact-us-grid {
   display: grid;
-  gap: 20px;
+  gap: 25px 20px;
   grid-template-columns: 25px 1fr;
 }
 .info__contact-us-grid-item {
@@ -405,10 +407,33 @@ a {
   font-family: "Myriad Pro";
   font-size: 16px;
   justify-content: center;
+  letter-spacing: 1.75px;
+  min-height: 25px;
+  position: relative;
 }
 .info__contact-us-grid-item--bold {
   font-family: "Swiss721BT-BlackCondensed";
+  letter-spacing: 0;
+}
+.info__contact-us-grid-item:nth-child(7) {
+  align-items: start;
+}
+.info__contact-us-grid-item:nth-child(8) {
+  line-height: 20px;
+  margin-top: 10px;
 }
 .info__contact-us-grid-item:nth-child(even) {
   justify-content: start;
+}
+.info__contact-us-grid-item:nth-child(even)::after {
+  border-bottom: 1px dashed #3c3c3c;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: 28px;
+  top: 38px;
+  width: 220px;
+}
+.info__contact-us-grid-item:last-child::after {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
