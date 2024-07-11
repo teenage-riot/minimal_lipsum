@@ -452,6 +452,10 @@ a {
   filter: sepia(100%);
 }
 
+.clients {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 7px;
+}
 .clients__header-block {
   align-items: center;
   display: flex;
@@ -487,4 +491,53 @@ a {
 }
 .clients__list-item:active {
   filter: sepia(50%) blur(1px);
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Swis721 Th BT Thin";
+  justify-content: center;
+  padding: 15px 0 20px 0;
+}
+.footer__logo {
+  height: 55px;
+  margin-bottom: 12px;
+  width: 163px;
+}
+.footer__links {
+  align-items: center;
+  color: #535353;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.footer__links-item {
+  margin: 4px 0 4px 0;
+  padding-inline: 10px;
+  padding: 0 10px 0 10px;
+  position: relative;
+  transition: all 0.3s;
+}
+.footer__links-item:hover {
+  font-size: 18px;
+  margin: 0;
+  padding: 0 10px 0 10px;
+}
+.footer__links-item:active {
+  font-size: 16px;
+}
+.footer__links-delimiter {
+  background-color: #535353;
+  height: 10px;
+  width: 1px;
+}
+.footer__bottom {
+  font-size: 16px;
+}
+.footer__copyright {
+  font-size: 12px;
 }/*# sourceMappingURL=styles.css.map */
