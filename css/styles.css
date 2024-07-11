@@ -321,6 +321,18 @@ a {
   line-height: 23px;
 }
 
+.sepia-50 {
+  filter: sepia(50%);
+}
+
+.sepia-100 {
+  filter: sepia(100%);
+}
+
+#phone-img {
+  transition: all 0.3s;
+}
+
 .info {
   display: grid;
   grid-template-columns: 275px 340px 1fr;
