@@ -32,15 +32,13 @@
   }
 
   &__list-item {
-    & img {
-      transition: all .3s;
-    }
+    transition: all .3s;
 
-    &:hover img {
+    &:hover {
       filter: sepia(50%);
     }
 
-    &:active img {
+    &:active {
       filter: sepia(50%) blur(1px);
     }
   }

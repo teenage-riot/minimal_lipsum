@@ -442,6 +442,15 @@ a {
 .info__contact-us-grid-item:last-child::after {
   display: none;
 }
+.info__contact-us-link {
+  transition: all 0.3s;
+}
+.info__contact-us-link:hover {
+  filter: sepia(50%);
+}
+.info__contact-us-link:active {
+  filter: sepia(100%);
+}
 
 .clients__header-block {
   align-items: center;
@@ -470,12 +479,12 @@ a {
   padding: 0 50px;
   justify-content: space-between;
 }
-.clients__list-item img {
+.clients__list-item {
   transition: all 0.3s;
 }
-.clients__list-item:hover img {
+.clients__list-item:hover {
   filter: sepia(50%);
 }
-.clients__list-item:active img {
+.clients__list-item:active {
   filter: sepia(50%) blur(1px);
 }/*# sourceMappingURL=styles.css.map */

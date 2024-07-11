@@ -146,4 +146,15 @@ $headers-balance-margin: 3px;
     }
   }
 
+  &__contact-us-link {
+    transition: all .3s;
+
+    &:hover {
+      filter: sepia(50%);
+    }
+
+    &:active {
+      filter: sepia(100%);
+    }
+  }
 }
