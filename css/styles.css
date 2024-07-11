@@ -72,6 +72,55 @@ a {
   color: inherit;
 }
 
+@font-face {
+  font-family: "Novecento WideBook";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Novecento WideBook"), url("../fonts/Novecento-WideBook.woff2") format("woff2"), url("../fonts/Novecento-WideBook.woff") format("woff"), url("../fonts/Novecento-WideBook.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Myriad Pro"), url("../fonts/Myriad-Pro.woff2") format("woff2"), url("../fonts/Myriad-Pro.woff") format("woff"), url("../fonts/Myriad-Pro.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Swis721 Th BT Thin";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Swis721 Th BT Thin"), url("../fonts/Swis721-Th-BT-Thin.woff2") format("woff2"), url("../fonts/Swis721-Th-BT-Thin.woff") format("woff"), url("../fonts/Swis721-Th-BT-Thin.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Narrow CE Regular";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Helvetica Narrow CE Regular"), url("../fonts/Helvetica-Narrow-CE-Regular.woff2") format("woff2"), url("../fonts/Helvetica-Narrow-CE-Regular.woff") format("woff"), url("../fonts/Helvetica-Narrow-CE-Regular.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-MdCn";
+  font-weight: 500;
+  font-style: normal;
+  src: local("HelveticaNeueLTPro-MdCn"), url("../fonts/HelveticaNeueLTPro-MdCn.woff2") format("woff2"), url("../fonts/HelveticaNeueLTPro-MdCn.woff") format("woff"), url("../fonts/HelveticaNeueLTPro-MdCn.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "InterstateCond";
+  font-weight: 500;
+  font-style: normal;
+  src: local("InterstateCond"), url("../fonts/InterstateCond.woff2") format("woff2"), url("../fonts/InterstateCond.woff") format("woff"), url("../fonts/InterstateCond.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Swiss721BT-BlackCondensed";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Swiss721BT-BlackCondensed"), url("../fonts/Swiss721BT-BlackCondensed.woff2") format("woff2"), url("../fonts/Swiss721BT-BlackCondensed.woff") format("woff"), url("../fonts/Swiss721BT-BlackCondensed.eot") format("eot");
+  font-display: swap;
+}
 .wrapper {
   display: flex;
   justify-content: center;
@@ -122,55 +171,6 @@ a {
   width: 14px;
 }
 
-@font-face {
-  font-family: "Novecento WideBook";
-  font-weight: 500;
-  font-style: normal;
-  src: local("Novecento WideBook"), url("../fonts/Novecento-WideBook.woff2") format("woff2"), url("../fonts/Novecento-WideBook.woff") format("woff"), url("../fonts/Novecento-WideBook.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Myriad Pro";
-  font-weight: 500;
-  font-style: normal;
-  src: local("Myriad Pro"), url("../fonts/Myriad-Pro.woff2") format("woff2"), url("../fonts/Myriad-Pro.woff") format("woff"), url("../fonts/Myriad-Pro.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Swis721 Th BT Thin";
-  font-weight: 500;
-  font-style: normal;
-  src: local("Swis721 Th BT Thin"), url("../fonts/Swis721-Th-BT-Thin.woff2") format("woff2"), url("../fonts/Swis721-Th-BT-Thin.woff") format("woff"), url("../fonts/Swis721-Th-BT-Thin.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Helvetica Narrow CE Regular";
-  font-weight: 500;
-  font-style: normal;
-  src: local("Helvetica Narrow CE Regular"), url("../fonts/Helvetica-Narrow-CE-Regular.woff2") format("woff2"), url("../fonts/Helvetica-Narrow-CE-Regular.woff") format("woff"), url("../fonts/Helvetica-Narrow-CE-Regular.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "HelveticaNeueLTPro-MdCn";
-  font-weight: 500;
-  font-style: normal;
-  src: local("HelveticaNeueLTPro-MdCn"), url("../fonts/HelveticaNeueLTPro-MdCn.woff2") format("woff2"), url("../fonts/HelveticaNeueLTPro-MdCn.woff") format("woff"), url("../fonts/HelveticaNeueLTPro-MdCn.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "InterstateCond";
-  font-weight: 500;
-  font-style: normal;
-  src: local("InterstateCond"), url("../fonts/InterstateCond.woff2") format("woff2"), url("../fonts/InterstateCond.woff") format("woff"), url("../fonts/InterstateCond.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Swiss721BT-BlackCondensed";
-  font-weight: 500;
-  font-style: normal;
-  src: local("Swiss721BT-BlackCondensed"), url("../fonts/Swiss721BT-BlackCondensed.woff2") format("woff2"), url("../fonts/Swiss721BT-BlackCondensed.woff") format("woff"), url("../fonts/Swiss721BT-BlackCondensed.eot") format("eot");
-  font-display: swap;
-}
 .header__top {
   align-items: center;
   display: flex;
