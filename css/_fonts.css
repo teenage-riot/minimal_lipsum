@@ -41,3 +41,36 @@
         url("../fonts/Helvetica-Narrow-CE-Regular.eot") format("eot");
   font-display: swap;
 }
+
+@font-face {
+  font-family: "HelveticaNeueLTPro-MdCn";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("HelveticaNeueLTPro-MdCn"),
+        url("../fonts/HelveticaNeueLTPro-MdCn.woff2") format("woff2"),
+        url("../fonts/HelveticaNeueLTPro-MdCn.woff") format("woff"),
+        url("../fonts/HelveticaNeueLTPro-MdCn.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "InterstateCond";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("InterstateCond"),
+        url("../fonts/InterstateCond.woff2") format("woff2"),
+        url("../fonts/InterstateCond.woff") format("woff"),
+        url("../fonts/InterstateCond.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Swiss721BT-BlackCondensed";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("Swiss721BT-BlackCondensed"),
+        url("../fonts/Swiss721BT-BlackCondensed.woff2") format("woff2"),
+        url("../fonts/Swiss721BT-BlackCondensed.woff") format("woff"),
+        url("../fonts/Swiss721BT-BlackCondensed.eot") format("eot");
+  font-display: swap;
+}

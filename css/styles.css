@@ -150,6 +150,27 @@ a {
   src: local("Helvetica Narrow CE Regular"), url("../fonts/Helvetica-Narrow-CE-Regular.woff2") format("woff2"), url("../fonts/Helvetica-Narrow-CE-Regular.woff") format("woff"), url("../fonts/Helvetica-Narrow-CE-Regular.eot") format("eot");
   font-display: swap;
 }
+@font-face {
+  font-family: "HelveticaNeueLTPro-MdCn";
+  font-weight: 500;
+  font-style: normal;
+  src: local("HelveticaNeueLTPro-MdCn"), url("../fonts/HelveticaNeueLTPro-MdCn.woff2") format("woff2"), url("../fonts/HelveticaNeueLTPro-MdCn.woff") format("woff"), url("../fonts/HelveticaNeueLTPro-MdCn.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "InterstateCond";
+  font-weight: 500;
+  font-style: normal;
+  src: local("InterstateCond"), url("../fonts/InterstateCond.woff2") format("woff2"), url("../fonts/InterstateCond.woff") format("woff"), url("../fonts/InterstateCond.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Swiss721BT-BlackCondensed";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Swiss721BT-BlackCondensed"), url("../fonts/Swiss721BT-BlackCondensed.woff2") format("woff2"), url("../fonts/Swiss721BT-BlackCondensed.woff") format("woff"), url("../fonts/Swiss721BT-BlackCondensed.eot") format("eot");
+  font-display: swap;
+}
 .header__top {
   align-items: center;
   display: flex;
@@ -226,8 +247,7 @@ a {
 
 .featured {
   border-bottom: 1px solid #ccc;
-  margin-top: 39px;
-  padding-bottom: 23px;
+  padding: 39px 0 23px 0;
 }
 .featured__header {
   color: #555656;
@@ -305,4 +325,72 @@ a {
   font-family: "Helvetica Narrow CE Regular";
   font-size: 14px;
   line-height: 23px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 35px 0 35px 0;
+}
+.info__header {
+  color: #565656;
+  font-family: "HelveticaNeueLTPro-MdCn";
+  font-size: 18px;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+.info__news-list-item {
+  border-bottom: 1px dashed #969696;
+  display: flex;
+  margin: 0 10px 19px 0;
+  padding-bottom: 10px;
+}
+.info__news-date {
+  border-right: 1px solid #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.info__news-date-day {
+  color: #f2ac04;
+  font-family: "HelveticaNeueLTPro-MdCn";
+  font-size: 18px;
+}
+.info__news-date-mon {
+  color: #777777;
+  font-family: "InterstateCond";
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.info__news-content {
+  padding-left: 10px;
+}
+.info__news-title {
+  color: #565656;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+}
+.info__news-text {
+  color: #939393;
+  font-family: "Tahoma";
+  font-size: 12px;
+}
+.info__who-we-are {
+  padding: 0 38px;
+  border-inline: 1px solid #e5e5e5;
+}
+.info__who-we-are-text {
+  color: #3c3c3c;
+  font-family: "Helvetica CE";
+  margin-bottom: 20px;
+}
+.info__contact-us-list-item {
+  color: #757575;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+}
+.info__contact-us-list-item--bold {
+  font-family: "Swiss721BT-BlackCondensed";
 }/*# sourceMappingURL=styles.css.map */
