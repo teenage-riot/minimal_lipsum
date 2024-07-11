@@ -1,0 +1,47 @@
+.clients {
+  &__header-block {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__header {
+    color: #343434;
+    font-family: "Tahoma";
+    font-size: 14px;
+    padding: 0 6px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  &__header-line {
+    background-color: #cccccc;
+    height: 1px;
+    width: 100%;
+
+    &:first-child {
+      width: 37px;
+    }
+  }
+
+  &__list {
+    align-items: center;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+  }
+
+  &__list-item {
+    & img {
+      transition: all .3s;
+    }
+
+    &:hover img {
+      filter: sepia(50%);
+    }
+
+    &:active img {
+      filter: sepia(50%) blur(1px);
+    }
+  }
+}

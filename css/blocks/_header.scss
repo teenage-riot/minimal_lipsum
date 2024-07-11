@@ -1,82 +1,84 @@
 $logo_height: 82px;
 
-.header__top {
-  align-items: center;
-  display: flex;
-  padding: 15px 0;
-}
-
-.header__logo {
-  position: relative;
-
-  &::after {
-    background-color: #cac8c5;
-    content: "";
-    height: 50px;
-    top: calc(($logo_height - 50px) / 2);
-    position: absolute;
-    width: 1px;
-  }
-}
-
-.header__title-block {
-  padding-left: 25px;
-}
-
-.header__title {
-  color: #f2ac04;
-  font-family: "Novecento WideBook";
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-}
-
-.header__subtitle {
-  color: #929292;
-  font-family: "Myriad Pro";
-  font-size: 14px;
-}
-
-.header__links {
-  border-block: 1px solid $border_color;
-  display: flex;
-  padding: 14px 0;
-  text-transform: uppercase;
-}
-
-.header__links-item {
-  color: #6b6b6b;
-  font-family: "Swis721 Th BT Thin";
-  font-size: 18px;
-  margin-right: 78px;
-  transition: all .3s;
-
-  &:last-child {
-    margin-right: 0;
+.header {
+  &__top {
+    align-items: center;
+    display: flex;
+    padding: 15px 0;
   }
 
-  &:hover {
-    color: #363636;
+  &__logo {
+    position: relative;
 
     &::after {
-      width: 100%;
+      background-color: #cac8c5;
+      content: "";
+      height: 50px;
+      top: calc(($logo_height - 50px) / 2);
+      position: absolute;
+      width: 1px;
     }
   }
 
-  &:active {
-    color: #000000;
-
-    &::after {
-      background: #000000;
-    }
+  &__title-block {
+    padding-left: 25px;
   }
 
-  &::after {
-    content: '';
-    width: 0px;
-    height: 1px;
-    display: block;
-    background: #6b6b6b;
-    transition: 300ms;
+  &__title {
+    color: #f2ac04;
+    font-family: "Novecento WideBook";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  &__subtitle {
+    color: #929292;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+  }
+
+  &__links {
+    border-block: 1px solid $border_color;
+    display: flex;
+    padding: 14px 0;
+    text-transform: uppercase;
+  }
+
+  &__links-item {
+    color: #6b6b6b;
+    font-family: "Swis721 Th BT Thin";
+    font-size: 18px;
+    margin-right: 78px;
+    transition: all .3s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: #363636;
+
+      &::after {
+        width: 100%;
+      }
+    }
+
+    &:active {
+      color: #000000;
+
+      &::after {
+        background: #000000;
+      }
+    }
+
+    &::after {
+      content: '';
+      width: 0px;
+      height: 1px;
+      display: block;
+      background: #6b6b6b;
+      transition: 300ms;
+    }
   }
 }

@@ -176,7 +176,6 @@ a {
   display: flex;
   padding: 15px 0;
 }
-
 .header__logo {
   position: relative;
 }
@@ -188,11 +187,9 @@ a {
   position: absolute;
   width: 1px;
 }
-
 .header__title-block {
   padding-left: 25px;
 }
-
 .header__title {
   color: #f2ac04;
   font-family: "Novecento WideBook";
@@ -200,20 +197,17 @@ a {
   text-transform: uppercase;
   margin-bottom: 14px;
 }
-
 .header__subtitle {
   color: #929292;
   font-family: "Myriad Pro";
   font-size: 14px;
 }
-
 .header__links {
   border-block: 1px solid #ababab;
   display: flex;
   padding: 14px 0;
   text-transform: uppercase;
 }
-
 .header__links-item {
   color: #6b6b6b;
   font-family: "Swis721 Th BT Thin";
@@ -447,4 +441,41 @@ a {
 }
 .info__contact-us-grid-item:last-child::after {
   display: none;
+}
+
+.clients__header-block {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.clients__header {
+  color: #343434;
+  font-family: "Tahoma";
+  font-size: 14px;
+  padding: 0 6px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.clients__header-line {
+  background-color: #cccccc;
+  height: 1px;
+  width: 100%;
+}
+.clients__header-line:first-child {
+  width: 37px;
+}
+.clients__list {
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+.clients__list-item img {
+  transition: all 0.3s;
+}
+.clients__list-item:hover img {
+  filter: sepia(50%);
+}
+.clients__list-item:active img {
+  filter: sepia(50%) blur(1px);
 }/*# sourceMappingURL=styles.css.map */
