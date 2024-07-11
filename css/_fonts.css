@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Novecento WideBook";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("Novecento WideBook"),
+        url("../fonts/Novecento-WideBook.woff2") format("woff2"),
+        url("../fonts/Novecento-WideBook.woff") format("woff"),
+        url("../fonts/Novecento-WideBook.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("Myriad Pro"),
+        url("../fonts/Myriad-Pro.woff2") format("woff2"),
+        url("../fonts/Myriad-Pro.woff") format("woff"),
+        url("../fonts/Myriad-Pro.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Swis721 Th BT Thin";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("Swis721 Th BT Thin"),
+        url("../fonts/Swis721-Th-BT-Thin.woff2") format("woff2"),
+        url("../fonts/Swis721-Th-BT-Thin.woff") format("woff"),
+        url("../fonts/Swis721-Th-BT-Thin.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Narrow CE Regular";
+  font-weight: 500;
+  font-style: normal;
+  src:  local("Helvetica Narrow CE Regular"),
+        url("../fonts/Helvetica-Narrow-CE-Regular.woff2") format("woff2"),
+        url("../fonts/Helvetica-Narrow-CE-Regular.woff") format("woff"),
+        url("../fonts/Helvetica-Narrow-CE-Regular.eot") format("eot");
+  font-display: swap;
+}

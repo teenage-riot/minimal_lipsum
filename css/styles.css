@@ -88,6 +88,68 @@ a {
   padding: 0px 40px;
 }
 
+.button-container {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.button {
+  background-color: #2b2b29;
+  color: #fff;
+  display: inline-block;
+  font-family: "Tahoma";
+  font-size: 12px;
+  height: 15px;
+  line-height: 15px;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s;
+  width: 43px;
+}
+.button:hover {
+  width: 50px;
+}
+.button:active {
+  width: 43px;
+}
+.button::after {
+  background-color: #2b2b29;
+  color: #fff;
+  content: ">";
+  position: absolute;
+  right: -15px;
+  transition: all 0.3s;
+  width: 14px;
+}
+
+@font-face {
+  font-family: "Novecento WideBook";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Novecento WideBook"), url("../fonts/Novecento-WideBook.woff2") format("woff2"), url("../fonts/Novecento-WideBook.woff") format("woff"), url("../fonts/Novecento-WideBook.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Myriad Pro";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Myriad Pro"), url("../fonts/Myriad-Pro.woff2") format("woff2"), url("../fonts/Myriad-Pro.woff") format("woff"), url("../fonts/Myriad-Pro.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Swis721 Th BT Thin";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Swis721 Th BT Thin"), url("../fonts/Swis721-Th-BT-Thin.woff2") format("woff2"), url("../fonts/Swis721-Th-BT-Thin.woff") format("woff"), url("../fonts/Swis721-Th-BT-Thin.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Narrow CE Regular";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Helvetica Narrow CE Regular"), url("../fonts/Helvetica-Narrow-CE-Regular.woff2") format("woff2"), url("../fonts/Helvetica-Narrow-CE-Regular.woff") format("woff"), url("../fonts/Helvetica-Narrow-CE-Regular.eot") format("eot");
+  font-display: swap;
+}
 .header__top {
   align-items: center;
   display: flex;
@@ -112,8 +174,9 @@ a {
 
 .header__title {
   color: #f2ac04;
-  font-family: "Novecentowide-Book";
+  font-family: "Novecento WideBook";
   font-size: 20px;
+  text-transform: uppercase;
   margin-bottom: 14px;
 }
 
@@ -213,7 +276,7 @@ a {
   left: 20px;
 }
 .featured__subtitle {
-  font-family: "Novecentowide-Book";
+  font-family: "Novecento WideBook";
   font-size: 26px;
   margin-bottom: 20px;
 }

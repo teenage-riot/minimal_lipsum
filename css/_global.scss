@@ -13,3 +13,40 @@
   max-width: 1005px;
   padding: 0px 40px;
 }
+
+.button-container {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.button {
+  background-color: #2b2b29;
+  color: #fff;
+  display: inline-block;
+  font-family: "Tahoma";
+  font-size: 12px;
+  height: 15px;
+  line-height: 15px;
+  position: relative;
+  text-align: center;
+  transition: all .3s;
+  width: 43px;
+
+  &:hover {
+    width: 50px;
+  }
+
+  &:active {
+    width: 43px;
+  }
+
+  &::after {
+    background-color: #2b2b29;
+    color: #fff;
+    content: ">";
+    position: absolute;
+    right: -15px;
+    transition: all .3s;
+    width: 14px;
+  }
+}
