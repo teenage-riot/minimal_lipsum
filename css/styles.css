@@ -395,6 +395,8 @@ a {
   font-family: "Helvetica CE";
   line-height: 23px;
   margin-bottom: 20px;
+  -webkit-hyphens: manual;
+          hyphens: manual;
 }
 .info__contact-us {
   padding-left: 55px;
