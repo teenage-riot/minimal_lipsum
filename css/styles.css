@@ -329,7 +329,7 @@ a {
   filter: sepia(100%);
 }
 
-#phone-img {
+#phone-img, #email-img {
   transition: all 0.3s;
 }
 
