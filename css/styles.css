@@ -386,11 +386,29 @@ a {
   font-family: "Helvetica CE";
   margin-bottom: 20px;
 }
-.info__contact-us-list-item {
+.info__contact-us {
+  margin-left: 50px;
+}
+.info__contact-us .info__header {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.info__contact-us-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 25px 1fr;
+}
+.info__contact-us-grid-item {
+  align-items: center;
   color: #757575;
+  display: flex;
   font-family: "Myriad Pro";
   font-size: 16px;
+  justify-content: center;
 }
-.info__contact-us-list-item--bold {
+.info__contact-us-grid-item--bold {
   font-family: "Swiss721BT-BlackCondensed";
+}
+.info__contact-us-grid-item:nth-child(even) {
+  justify-content: start;
 }/*# sourceMappingURL=styles.css.map */

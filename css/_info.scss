@@ -83,15 +83,35 @@
 
   // -------------------------------------
 
+  &__contact-us {
+    margin-left: 50px;
 
+    .info__header {
+      font-size: 22px;
+      text-transform: capitalize;
+    }
+  }
 
-  &__contact-us-list-item {
+  &__contact-us-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 25px 1fr;
+  }
+
+  &__contact-us-grid-item {
+    align-items: center;
     color: #757575;
+    display: flex;
     font-family: "Myriad Pro";
     font-size: 16px;
+    justify-content: center;
 
     &--bold {
       font-family: "Swiss721BT-BlackCondensed";
+    }
+
+    &:nth-child(even) {
+      justify-content: start;
     }
   }
 
